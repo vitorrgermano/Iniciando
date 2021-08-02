@@ -1,0 +1,111 @@
+body{
+    background: url("https://cdn.leroymerlin.com.br/products/papel_de_parede_infantil_patinhas_cachorro_1556286064_c8a4_600x600.jpg");
+}
+
+.cabecalho {
+    font-family: sans-serif;
+    margin: 0 0 0 0;
+    background-color: #bbbbbb;
+}
+
+.logo {
+    color: #FFDD00;
+    font-size: 30px;
+    font-weight: bold;
+    width: 75%;
+}
+
+.logo:hover {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.navegacao {
+    background-color: #FFDD00;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 10px 10px 20px;
+}
+
+.navegacao:hover {
+    color: royalblue;
+    cursor: pointer;
+}
+
+.navegacao:active {
+    color: green;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #bbbbbb;
+    padding: 5px 0 5px 0;
+}
+
+.direitos {
+    text-align: end;
+    padding-right: 10px;
+}
+
+.cabecalho .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .menu {
+    display: flex;
+}
+
+.adote {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.cachorro {
+    text-align: center;
+    width: 25%;
+    border: 2px solid #DDDDDD;
+    border-radius: 20px;
+}
+
+.cachorro:hover {
+    border-color: #C78C19;
+}
+
+.cachorro:hover .nome{
+    font-size: 35px;
+}
+
+.cachorro img {
+    max-width: 200px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+footer{
+  
+}
+
+@media (max-width: 700px) {
+    .cabecalho {
+        background-color: #FFDD00;
+    }
+    .logo {
+        display: none;
+    }
+    .container .menu {
+        display: flex;
+        flex-direction: column;
+    }
+    .adote {
+        display: flex;
+        flex-direction: column;
+    }
+    .cachorro {
+        text-align: center;
+        width: 90%;
+    }
+}
